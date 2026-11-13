@@ -1,0 +1,13 @@
+{
+  "name": "@bunelix/cli",
+  "version": "0.1.0",
+  "description": "Bunelix application and bundle generator",
+  "type": "module",
+  "bin": { "bunelix": "./dist/cli.js" },
+  "main": "./dist/cli.js",
+  "types": "./dist/cli.d.ts",
+  "exports": { ".": "./dist/cli.js" },
+  "files": ["dist"],
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bunelix-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*", "examples/*"],
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsc -p packages/core && tsc -p packages/cli",
+    "typecheck": "tsc -p packages/core --noEmit && tsc -p packages/cli --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build && npm test",
+    "example:dev": "npm run dev -w @bunelix/example-hello-android",
+    "example:build": "npm run build -w @bunelix/example-hello-android"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,8 @@
+:root{font-family:system-ui,sans-serif;color-scheme:dark;background:#10152b;color:#f6f5ff}
+*{box-sizing:border-box}body{margin:0;min-height:100dvh;background:radial-gradient(circle at 45% 20%,#25255d,#10152b 70%)}
+main{padding:12vh 8vw 120px;max-width:660px;margin:0 auto;text-align:center}
+h1{font-size:clamp(3rem,14vw,5rem);letter-spacing:.05em;background:linear-gradient(110deg,#93c5fd,#d8b4fe);color:transparent;background-clip:text}
+p{font-size:1.12rem;line-height:1.6;color:#d0d6f0}
+button{cursor:pointer;touch-action:manipulation;border:1px solid #7075af;border-radius:14px;padding:16px 22px;color:#fff;background:#313763;font-weight:700}
+nav{position:fixed;bottom:env(safe-area-inset-bottom,0px);left:0;right:0;display:flex;justify-content:space-evenly;padding:12px;background:#171b38d9;backdrop-filter:blur(12px)}
+nav button[aria-current=page]{border-color:#b4a6fa;background:#514488}
