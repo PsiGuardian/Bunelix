@@ -1,0 +1,11 @@
+{
+  "name": "create-bunelix",
+  "version": "0.1.0",
+  "description": "Create Bunelix applications using npm create bunelix",
+  "type": "module",
+  "bin": { "create-bunelix": "./bin/create-bunelix.mjs" },
+  "files": ["bin"],
+  "dependencies": { "@bunelix/cli": "0.1.0" },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+node_modules/
+**/dist/
+**/.vite/
+**/android/
+**/ios/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.apk
+*.aab
+.DS_Store
